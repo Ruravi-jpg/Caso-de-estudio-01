@@ -1,0 +1,64 @@
+
+  /* carrusel */
+  .carrousel-img{
+   height: 500px;
+   width: 200px;
+  }
+
+
+
+  /* filtro de cards  */
+  .container {
+    overflow: hidden;
+    float: center;
+
+  }
+  
+  .filterDiv {
+    float:left;
+    background-color: #f1f1f1;
+    color: #ffffff;
+    width: fit-content;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+    
+  }
+  
+  /* Style the buttons */
+
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #78339a;
+    color: #f1f1f1;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  #mybtncontainer{
+      padding-top:30px;
+  }
+
+
+  /* card */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #000;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+   .card-body{
+       color: #000;
+   }
