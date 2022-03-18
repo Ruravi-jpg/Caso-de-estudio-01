@@ -1,8 +1,15 @@
 
+:root{
+  --primaryColor : #ff914d;
+  --secondaryColor : #C1DDEF;
+  --secondarColorHover: #71c1f3;
+  --tertiaryColor : #895a30;
+}
+
   /* carrusel */
   .carrousel-img{
    height: 500px;
-   width: 200px;
+   width: auto;
   }
 
 
@@ -16,40 +23,37 @@
   
   .filterDiv {
     float:left;
-    background-color: #f1f1f1;
-    color: #ffffff;
     width: fit-content;
     line-height: 100px;
     text-align: center;
     margin: 2px;
-    display: none; /* Hidden by default */
+    padding: 30px;
+
   }
   
   /* The "show" class is added to the filtered elements */
   .show {
     display: block;
-    
   }
   
-  /* Style the buttons */
-
-  
-  /* Add a light grey background on mouse-over */
-  .btn:hover {
-    background-color: #78339a;
-    color: #f1f1f1;
-  }
-  
-  /* Add a dark background to the active button */
   .btn.active {
     background-color: #666;
     color: white;
   }
 
-  #mybtncontainer{
+  #myBtnContainer{
       padding-top:30px;
+      padding-bottom:30px;
   }
 
+  #myBtnContainer .btn{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+#myBtnContainer .btn:hover{
+  background-color: var(--secondarColorHover);
+}
 
   /* card */
   .card {
@@ -58,7 +62,26 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    max-width: 286px;
+    max-height: 583px;
+  }
+
+  .card .card-img-top{
+      height: 429px;
+      width: 286px;
   }
    .card-body{
        color: #000;
    }
+
+   .card .btn{
+     background-color: var(--primaryColor);
+   }
+
+   .card .btn:hover{
+    background-color: var(--secondarColorHover);
+  }
+
+  .bookList{
+    grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
+  }
