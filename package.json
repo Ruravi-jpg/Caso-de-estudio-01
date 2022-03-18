@@ -1,0 +1,24 @@
+{
+  "name": "caso-de-estudio-01",
+  "version": "1.0.0",
+  "description": "Caso de estudio 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruravi-jpg/Caso-de-estudio-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruravi-jpg/Caso-de-estudio-01/issues"
+  },
+  "homepage": "https://github.com/Ruravi-jpg/Caso-de-estudio-01#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "json-server": "^0.17.0",
+    "nodejs": "^0.0.0"
+  }
+}
