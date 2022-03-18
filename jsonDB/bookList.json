@@ -1,0 +1,60 @@
+{
+    "books": [
+        {
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "price": 300,
+            "Tags" : "nuevo lo-mas-vendido",
+            "id": 0,
+            "sellN" : 0
+        },
+        {
+            "title": "Harry potter and the deathly hallows",
+            "author": "J.K Rowling",
+            "price": 500,
+            "Tags" : "lo-mas-vendido",
+            "id": 1,
+            "sellN" : 0
+        },
+        {
+            "title": "Sin Eater",
+            "author": "Megan Campisi",
+            "price": 150,
+            "Tags" : "nuevo ofertas",
+            "id": 2,
+            "sellN" : 0
+        },
+        {
+            "title": "Son of the Storm",
+            "author": "Suyi Davies",
+            "price": 380,
+            "Tags" : "ofertas",
+            "id": 3,
+            "sellN" : 0
+        },
+        {
+            "title": "The Jungle",
+            "author": "Upton Sinclair",
+            "price": 268,
+            "Tags" : "ofertas",
+            "id": 4,
+            "sellN" : 0
+        },
+        {
+            "title": "The King of Drugs",
+            "author": "Nora Barrett",
+            "price": 145,
+            "Tags" : "lo-mas-vendido",
+            "id": 5,
+            "sellN" : 0
+        },
+        {
+            "title": "The outsider",
+            "author": "Stephen King",
+            "price": 310,
+            "Tags" : "Nuevo lo-mas-vendido ofertas",
+            "id": 6,
+            "sellN" : 0
+        }
+    ]
+}
